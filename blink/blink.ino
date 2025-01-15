@@ -1,14 +1,12 @@
-const int LED_PIN = LED_BUILTIN;
-
 void setup()
 {
-    pinMode(LED_PIN, OUTPUT);
+    pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop()
 {
-    digitalWrite(LED_PIN, HIGH);
+    digitalWrite(LED_BUILTIN, HIGH);
     delay(1000);
-    digitalWrite(LED_PIN, LOW);
+    digitalWrite(LED_BUILTIN, LOW);
     delay(1000);
 }
